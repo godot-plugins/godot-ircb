@@ -1,0 +1,21 @@
+{
+  "name": "godot-ircb",
+  "description": "Godot Plugin: IRCb Reactor",
+  "version": "0.1.0",
+  "author": "Olivier Bazoud <olivier.bazoud@gmail.com>",
+  "homepage": "https://github.com/godot-plugins/godot-ircb.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/godot-plugins/godot-ircb.git"
+  },
+  "dependencies": {
+    "godot": "0.2.7",
+    "irc": "git://github.com/obazoud/ircb.git#develop",
+    "utile": "0.1.7"
+  },
+  "main": "./lib/godot-ircb/index.js",
+  "engines": {
+    "node": "0.8.x"
+  }
+}
+
